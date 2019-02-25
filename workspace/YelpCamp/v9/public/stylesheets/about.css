@@ -1,0 +1,30 @@
+
+body {
+  background-color: #fff;
+  background-image:url("https://images.unsplash.com/photo-1542361344-6ebd6fe3fdc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80");   background-size: cover;
+    background-position: center;
+}
+.cmd-section {
+	width: 75%;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: -5px;
+	color: #5f5f5f;
+	font-size: 15px;
+	line-height: 25px
+}
+
+.containera{
+    width: 75%;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: -5px;
+	color: #5f5f5f;
+	font-size: 15px;
+	line-height: 25px;
+	padding-left: 20px;
+}
+
+.banner-text{
+    padding-top: 80px;
+}

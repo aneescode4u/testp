@@ -1,0 +1,21 @@
+body {
+  background-color: #fff;
+  background-image: url(https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
+}
+
+
+.details{
+  
+    width: 75%;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: -5px;
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px;
+	padding-left: 20px;
+  
+  
+}
+
+

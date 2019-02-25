@@ -1,0 +1,28 @@
+
+body {
+  background-color: #fff;
+    background: url(https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+    
+}
+
+   .img{
+    max-width: 100px;
+
+
+   }
+   .navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand img {
+  height: 100%;  
+  width: auto;
+}
+
+.form-group{
+    width:40%;
+    padding-left:60px;
+    color:#fff;
+}
+
