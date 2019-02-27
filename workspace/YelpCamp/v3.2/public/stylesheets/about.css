@@ -1,38 +1,118 @@
+body{
+background-color: #e9dccd;}
 
-body {
-  background-color: #fff;
-  background-image:url("https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");   background-size: cover;
-    background-position: center;
-}
-.cmd-section {
-	width: 75%;
-	display: inline-block;
-	vertical-align: bottom;
-	margin-left: -5px;
-	color: #000000;
-	font-size: 15px;
-	line-height: 25px
+.secondary{
+    height:350px;
 }
 
-.containera{
-    width: 75%;
-	display: inline-block;
-	vertical-align: bottom;
-	margin-left: -5px;
-	color: #000000;
-	font-size: 15px;
-	line-height: 25px;
-	padding-left: 20px;
+     
+       .secondary{ 
+       background-image:url("/images/abt.jpg");
+       background-position:left center;
+       background-repeat: no-repeat;
+       padding-top:60px;
+       padding-left:50px;
+       background-size: cover;
+
+     }
+      .grid{
+      display:grid;
+     
+      margin-top:60px;
+      padding-right:30px;
+     }
+
+
+        .contenttestclass{
+        padding-left:50px;
+        padding-top:60px;
+        color:white;
+      } 
+
+
+.check{
+	padding-left:50px;
+    font-family:sans-serif;
+    color:#131b4d;
+    position:relative;
+    }
+.check p{
+    font-size: medium;
+    text-align: justify;
 }
 
-.banner-text{
-    padding-top: 80px;
+.check2{
+    width:100%;
+    height:250px;
+    background-image:linear-gradient(to bottom right,#03bfff,#036eff);
+    color:#fff;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding-top: 30px;
+    text-align:center; 
+    font-family: "Helvetica Neue";
+      margin-bottom:40px;
+      padding-bottom:60px;
+    
+    
+}    
+
+   .GRID2{
+      display:grid;
+      margin-top:60px;
+      padding-left:50px;
+   }
+      
+ 
+.new{    color: #131b4d;
+padding-top:100px;
+padding-left:50px;
+}
+.newa{margin-left:50px;
 }
 
-.h2, h2 {
-    color: black;
+.check{
+   padding-left:50px; 
+    
 }
 
+   
+@media (max-width:500px) {
+    
+    
+    
+	.secondary{
+	padding-top:40px;
+       padding-left:20px;
+		padding-right: 20px;
+	}
+       
+ .grid>img {
+    display: none;
+  }
+  .check{
+      padding-left: 10px;
+      padding-right: 20px;
+  }
+  
+        .contenttestclass{
+        padding-left:20px;
+        padding-top:50px;
+      } 
+.new{ 
+padding-top:30px;
+padding-left:30px;
+}
+  .check2{
+    height:350px;
+       padding-top: 50px;
+  }
+  .GRID2{
+     
+      margin-top:40px;
+      padding-left:30px;
+   }
+      .newa{margin-left:30px;
+}
 
-
-
+}
